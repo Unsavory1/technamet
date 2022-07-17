@@ -1,7 +1,7 @@
 html,
 body * {
-	color: rgba(248, 248, 242, 1) !important;
-	background-color: rgba(40, 42, 54, 1) !important;
+	color: rgb(231, 231, 9) !important;
+	background-color: rgba(3, 19, 32) !important;
     
 }
 
@@ -31,16 +31,45 @@ a:visited,
 a:visited * {
 	color: rgba(98, 114, 164, 1) !important;
 }
-p{
-    font-style: italic;
-    text-align: center;
+
+.quote { 
+	text-align:center;
+	font-size: medium;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+}
+.form {
+	 align-self: auto;
+} 
+.faq {
+ text-align: left;
+ 
 }
 h1, 
+
 h1 { 
-    
-    text-align:center;
+	text-align:center ;
+	color: black; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+img 
+{ 
+	width:300px;
+	height:300px;
+	float: right;
+	border:3px;
+	border-color:black;
+	border-style: solid;
+	
+} 
+.links 
+{ 
+align-self: auto;	
 }
 h2,
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+}
 h3,
 h4,
 h5,
